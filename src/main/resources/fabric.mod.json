@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "coordconvert",
+	"version": "${version}",
+	"name": "CoordConvert",
+	"description": "Convert coordinates and Xaero's Minimap waypoints between dimensions with /convert.",
+	"authors": [
+		"Kai295"
+	],
+	"contact": {
+		"sources": "https://git.kai295.me/realkai295/CoordConvert"
+	},
+	"license": "MIT",
+	"icon": "assets/coordconvert/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.coordconvert.CoordConvertClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=1.21 <1.22",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"xaerominimap": "*",
+		"xaerominimapfair": "*"
+	}
+}
