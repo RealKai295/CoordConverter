@@ -26,7 +26,7 @@ Coordinate conversion works without Xaero if you pass raw `x y z` values, but wa
 ## Installation
 
 1. Install Fabric Loader for Minecraft 1.21.x.
-2. Download the latest `coordconvert` jar from [Releases](https://github.com/kai/CoordConvert/releases).
+2. Download the latest `coordconvert` jar from [Releases](https://git.kai295.me/realkai295/CoordConvert/releases).
 3. Place it in your `mods` folder alongside Fabric API and Xaero's Minimap.
 4. Launch the game.
 
